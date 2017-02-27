@@ -1,0 +1,36 @@
+.display-none{
+  display: none;
+}
+
+.display-inline{
+  display: inline;
+}
+
+.background-red{
+  background: red;
+}
+
+.color-red{
+  color: red;
+}
+
+.one {
+    text-align: center;
+    height: 0px;
+    width: 150px;
+    opacity: 0;
+    background-color: #F5F6CE;
+    visibility: hidden;
+    transition-property: height, width, opacity, visibility;
+    transition-duration: 2s, 0s;
+    transition-delay: 0s, 1s;
+}
+
+.two {
+  text-align: center;
+  height: 300px;
+  width: 152px;
+  background-color: #BFFF00;
+  transition-property:visibility, opacity, width, height;
+  transition-duration: 3s, 1s;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function toggle(){
+
+        var div = document.getElementById('div1');
+
+        if(div.getAttribute("class") == 'one'){
+          div.className = 'two';
+        }else{
+          div.className = 'one';
+        }
+
+      }
+    </script>
+
+  </head>
+  <body>
+
+    <div>
+
+      <div>
+        header
+        <button type="button" name="button" onclick="toggle()">
+          toggle
+        </button>
+      </div>
+
+      <div id="div1" class="one">
+        <div>content 1</div>
+        <div>content 2</div>
+        <div>content 3</div>
+      </div>
+      <div class="">
+        aqui va mas contenido
+      </div>
+
+    </div>
+
+  </body>
+</html>
